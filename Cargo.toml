@@ -1,0 +1,11 @@
+[package]
+name = "default_deriver"
+version = "0.0.1"
+authors = [ "Hyunggyu Jang <murasakipurplez5@gmail.com>" ]
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1", features = ["full"]}
+quote = "1"
